@@ -5,6 +5,14 @@
     color:rgb(13, 19, 33);
     font-family: 'Azeret Mono';
 }
+.common-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+
+    opacity:0.7; 
+}
 
 /* navbar styles */
 nav{
@@ -79,10 +87,63 @@ nav a{
     background-color:rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom:40px;
 }
 .banner-text{
-    display: flex-column;
+
     justify-content: center;
     text-align: center;
 
+}
+
+/* main styles */
+
+.why-web-dev{
+    width: 1140px;
+    margin: 150px 590px;
+}
+.web-header h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.web-header>p{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.web-dev-description{
+    display: flex;
+
+    gap:75px;  
+    padding: 50px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.web-dev-description h3{
+    color: rgba(13, 19, 33, 0.7);
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.learn-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 8px 15px;
+}
+.learn-btn a{
+    text-decoration: none;
+    color: inherit;
 }

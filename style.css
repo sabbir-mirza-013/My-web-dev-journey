@@ -151,10 +151,27 @@ nav a{
 
 
 /* inspiration class starts */
+
+
 .inspiration{
     width: 1640px;
     margin: 150px 345px;
 
+}
+.inspiration h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.inspiration p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right:300px;
+    margin-left: 300px;
 }
 .video-link{
     margin-top: 50px;
@@ -170,3 +187,77 @@ nav a{
     height: 650px;
 
 }
+
+/* Current target starts */
+.current-target{
+    width: 1740px;
+    margin: 150px 245px;
+
+}
+.current-target h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.current-target >p{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right:300px;
+    margin-left: 300px;
+}
+.target-list{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left:250px;
+
+
+}
+.target-1{
+    padding:40px 20px 50px 50px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);    
+    width: 300px;
+    height:250px;
+}
+.target-2{
+    padding:40px 20px 50px 50px;
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05); 
+    width: 300px;
+    height:250px;
+}
+.target-3{
+    padding:40px 20px 50px 50px;
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);   
+    width: 300px;
+    height:250px;
+}
+ 
+.learn-more-btn{
+    padding:28px 0;
+    font-size: 18px;
+
+
+    margin-top:20px;
+}
+
+.learn-more-btn a{
+
+    color: rgb(13, 19, 33);
+ 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+

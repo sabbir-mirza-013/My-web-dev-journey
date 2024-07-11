@@ -261,3 +261,11 @@ nav a{
     text-decoration-line: underline;
 }
 
+/* suppoert part starts */
+.support{
+    background-image: url("assets/handshake.jpg");
+    width:1490px;
+    height:334px;
+    background-size: cover; 
+    background-position: center;
+    margin: 150px 245px;}

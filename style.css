@@ -272,6 +272,7 @@ nav a{
     margin: 150px 245px;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("assets/handshake.jpg");
 }
 .support h1{
     color:rgb(255, 255, 255);
